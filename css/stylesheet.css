@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* This CSS File was created by www.pixelateddesign.co.uk */
+/* This is free if you have purchased this templete please contact us useign the email */
+/* info@pixelateddesign.co.uk along with the amount you payed for your website */
+
+/* This file remains property of www.pixelateddesign.co.uk however this is free to use for personal use */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #060606;
+  color: #ffffff;
+  font-family: "KumbhSans-Black";
+}
+
+.contain {
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contentTitle{
+  font-family: 'CYN_Gamer';
+}
+.first-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 2px solid #333333;
+
+}
+.menu-link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
+  height: 100%;
+}
+.menu-link:hover {
+  background-color: #333333;
+}
+.menu div {
+}
+.line-gray {
+  margin: 0;
+  border: 0;
+  height: 2px;
+  background: #333333;
+}
+
+.marquee {
+  height: 115px;
+  margin: 0 auto;
+  font-size: 64px;
+  line-height: 83.2px;
+  color: #14f77e;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.marquee p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

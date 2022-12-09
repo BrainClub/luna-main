@@ -14,12 +14,12 @@ body {
 }
 
 .contain {
-  max-width: 1224px;
+
   width: 100%;
   margin: 0 auto;
 }
-.contentTitle{
-  font-family: 'CYN_Gamer';
+.contentTitle {
+  font-family: "CYN_Gamer";
 }
 .first-section {
   min-height: 100vh;
@@ -29,15 +29,27 @@ body {
 }
 .menu {
   display: flex;
+  flex: 1;
+  max-width: 1440px;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  border-bottom: 2px solid #333333;
-
 }
 .menu-link {
   display: flex;
   flex: 1;
+  font-family: "KumbhSans-Thin";
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
+  height: 100%;
+}
+.menu-link-logo {
+  display: flex;
+  flex: 3;
+  font-family: "CYN_Gamer";
+  font-size: 28px;
   justify-content: center;
   align-items: center;
   border-right: 1px solid #333333;

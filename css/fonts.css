@@ -19,8 +19,32 @@
   font-family: 'KumbhSans-Black';
   src: url("../font/KumbhSans-Black.ttf");
   src: local("☺"), url("../font/KumbhSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'KumbhSans-Bold';
+  src: url("../font/KumbhSans-Bold.ttf");
+  src: local("☺"), url("../font/KumbhSans-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'KumbhSans-Thin';
+  src: url("../font/KumbhSans-Thin.ttf");
+  src: local("☺"), url("../font/KumbhSans-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'KumbhSans-Black';
+  src: url("../font/KumbhSans-Black.ttf");
+  src: local("☺"), url("../font/KumbhSans-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
+
+
+
 
 @font-face {
   font-family: 'CYN_Gamer';

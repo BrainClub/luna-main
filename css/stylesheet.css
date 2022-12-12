@@ -14,7 +14,7 @@ body {
 }
 
 .contain {
-
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
 }
@@ -27,6 +27,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.menu-wrapper {
+  width: 100%;
+}
 .menu {
   display: flex;
   flex: 1;
@@ -34,6 +37,10 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  margin: 0 auto;
+}
+.menu div {
+  cursor: pointer;
 }
 .menu-link {
   display: flex;
@@ -59,7 +66,14 @@ body {
 .menu-link:hover {
   background-color: #333333;
 }
-.menu div {
+.main-img {
+  width: 100%;
+  margin: 32px 0 ;
+}
+.main-sub-title {
+  font-family: "KumbhSans-Thin";
+  font-size: 18px;
+  line-height: 27px;
 }
 .line-gray {
   margin: 0;
@@ -68,29 +82,10 @@ body {
   background: #333333;
 }
 
-.marquee {
-  height: 115px;
-  margin: 0 auto;
-  font-size: 64px;
-  line-height: 83.2px;
-  color: #14f77e;
-  white-space: nowrap;
+
+.hero-section {
+  position: relative;
   overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+  font: 900 9vw/1 sans-serif;
 
-.marquee p {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
 }

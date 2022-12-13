@@ -68,7 +68,7 @@ body {
 }
 .main-img {
   width: 100%;
-  margin: 32px 0 ;
+  margin: 32px 0;
 }
 .main-sub-title {
   font-family: "KumbhSans-Thin";
@@ -82,10 +82,16 @@ body {
   background: #333333;
 }
 
-
 .hero-section {
   position: relative;
   overflow: hidden;
   font: 900 9vw/1 sans-serif;
-
+}
+.hero-section .item {
+  font-family: "CYN_Gamer";
+  color: transparent;
+ 
+  padding: 17px 0;
+  -webkit-text-stroke-color: #323232;
+  -webkit-text-stroke-width: 1px;
 }
